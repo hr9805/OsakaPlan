@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+<title> 일본여행 </title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0px;
+        }
+		html, body {
+			height: 100%;
+			width: 100%;
+			min-height: 100vh;
+			min-width: 100vw;
+			background-color: #fff2cc;
+
+			position: relative;
+		}
+
+		.uSpan {
+		    display: flex;
+		    border-radius: 1rem;
+		    gap: 1px;
+		    flex-wrap: wrap;
+
+		    padding: 1px;
+
+		}
+
+		.uList {
+		    width: 12.28%;
+		    display: flex;
+		    justify-content: center;
+
+            top: 50%;
+		}
+
+		.uFontSize {
+		    font-weight: bold;
+		    font-size: 12px;
+		}
+
+		.cCyan {
+		    background-color: cyan;
+		}
+
+		.tWhite { color: white; font-size: 15px; }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+        }
+
+		p { text-align: center; }
+
+		a { text-decoration: none; }
+	</style>
+</head>
+<body>
+
+<div class="container">
+        <div style="height: 15%;">
+            <h1 style="padding: 0px 0px 10px 10px;"> <span style="background-color: cyan; color:white; padding: 0px 0px 20px 10px;"> 01 </span> &nbsp; KYOTO - 기요미즈데라 </h1>
+        </div>
+
+        <div style="position: relative; height: 85%; width: 100%; background-color: #fff2cc; display: flex; justify-content: center;">
+            <div style="position: absolute; background-color: #fff2cc; left:2%;">
+                <div class="uFontSize"> 점심후보1 <br> <a href="https://maps.app.goo.gl/1pzHYqMdF4BDLMv6A">함박스테이크 </div>
+                <img src="https://lh5.googleusercontent.com/p/AF1QipOKW-dOPpfq7zec9YPSzJg3DZRTHYArAuujyYJ6=w600-h988-p-k-no" width="60px" height="100px" style="object-fit:contain;"></a>
+            </div>
+            <div style="background-color: #fff2cc; width:98%; position: absolute; top: 50%; transform: translate(0, -50%);">
+            <span class="uSpan">
+                <div class="uList uFontSize">  </div>
+                <div class="uList uFontSize"> 점심 </div>
+                <div class="uList uFontSize">  </div>
+                <div class="uList uFontSize"> 기요미즈데라 </div>
+                <div class="uList uFontSize">  </div>
+                <div class="uList uFontSize"> 저녁 </div>
+                <div class="uList uFontSize">  </div>
+                <div class="uList uFontSize"> 호텔 </div>
+            </span>
+            <span class="cCyan uSpan">
+                <div class="uList tWhite"> ● </div>
+                <div class="uList tWhite"> ● </div>
+                <div class="uList tWhite"> ● </div>
+                <div class="uList tWhite"> ● </div>
+                <div class="uList tWhite"> ● </div>
+                <div class="uList tWhite"> ● </div>
+                <div class="uList tWhite"> ● </div>
+                <div class="uList tWhite"> ● </div>
+            </span>
+                <span class="uSpan">
+                <div class="uList uFontSize"> 교토도착 </div>
+                <div class="uList uFontSize">  </div>
+                <div class="uList uFontSize"> 카페 </div>
+                <div class="uList uFontSize">  </div>
+                <div class="uList uFontSize"> 산넨자카/니넨자카 </div>
+                <div class="uList uFontSize">  </div>
+                <div class="uList uFontSize"> 야사카신사 </div>
+                <div class="uList uFontSize">  </div>
+            </span>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
